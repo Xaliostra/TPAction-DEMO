@@ -68,6 +68,18 @@ Acquire target → approach → activate attack ability
 → wait for ability completion → recovery delay → repeat
 The AI is deliberately limited: this project is a combat-systems study, not an AI showcase.
 
+## Code Tour
+
+| Area | Key implementation | What it demonstrates |
+|---|---|---|
+| Melee combo ability | [SL_PrimaryAttackAbility.cpp](Source/TPAction/Private/AbilitySystem/Abilities/SL_PrimaryAttackAbility.cpp) | GAS-driven combo flow, montage sections, gameplay events, tracing windows, and hit application |
+| Weapon tracing | [SL_WeaponComponent.cpp](Source/TPAction/Private/Components/SL_WeaponComponent.cpp) | Tag-driven trace socket selection, frame-to-frame sphere sweeps, and Gameplay Ability target data |
+| Limb system | [SL_LimbsComponent.cpp](Source/TPAction/Private/Components/SL_LimbsComponent.cpp) | Bone-to-limb mapping, limb health, armor, multipliers, dismemberment, and visual feedback |
+| Damage calculation | [SL_ExecCalc_Damage.cpp](Source/TPAction/Private/AbilitySystem/ExecCalculations/SL_ExecCalc_Damage.cpp) | GAS execution calculation connecting damage, armor, and limb modifiers |
+| Lock-on targeting (As part of the Character) | [SL_PlayerCharacter.cpp](Source/TPAction/Private/Characters/SL_PlayerCharacter.cpp) | Target selection, camera lock-on, target validation, and limb selection |
+| Enemy attack behavior | [SL_BTTask_BaseAttack.cpp](Source/TPAction/Private/AI/Tasks/SL_BTTask_BaseAttack.cpp) | Latent Behavior Tree task, ability lifecycle handling, recovery delay, and abort cleanup |
+| Gameplay tags | [GameplayTags.h](Source/TPAction/Public/Tags/GameplayTags.h) | Shared vocabulary used to connect abilities, animation events, tracing, and combat state |
+
 ## Tech Stack
 
 - Unreal Engine 5
