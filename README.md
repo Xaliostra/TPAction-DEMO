@@ -7,8 +7,9 @@ This is an original prototype, not a recreation of any existing game.
 
 [Gameplay video](...) · [Portfolio](...)
 
-![Gameplay GIF: lock-on, limb selection, hit, dismemberment]
-<img width="334" height="216" alt="TPAction_Target" src="https://github.com/user-attachments/assets/37246ae5-befc-4798-8135-042da6e68d6d" />
+## Gameplay GIF: 
+<br>lock-on, limb selection, hit, dismemberment
+<br><img width="334" height="216" alt="TPAction_Target" src="https://github.com/user-attachments/assets/37246ae5-befc-4798-8135-042da6e68d6d" />
 
 
 ## Project Goal
