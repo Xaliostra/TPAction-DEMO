@@ -63,10 +63,10 @@ Weapon tracing
 - Hit deduplication per attack window via TSet container
   
 AI
-The enemy uses a minimal combat behavior loop:
+\The enemy uses a minimal combat behavior loop:
 Acquire target → approach → activate attack ability
 → wait for ability completion → recovery delay → repeat
-The AI is deliberately limited: this project is a combat-systems study, not an AI showcase.
+\The AI is deliberately limited: this project is a combat-systems study, not an AI showcase.
 
 ## Code Tour
 
