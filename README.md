@@ -9,7 +9,7 @@ This is an original prototype, not a recreation of any existing game.
 
 ## Gameplay GIF: 
 <br>lock-on, limb selection, hit, dismemberment
-<br><img width="334" height="216" alt="TPAction_Target" src="https://github.com/user-attachments/assets/37246ae5-befc-4798-8135-042da6e68d6d" style="margin-right: 12" /><img width="334" height="216" alt="TPAction_SwitchTarget" src="https://github.com/user-attachments/assets/54e830cf-eb87-48e1-afce-c7c3ede7969b" style="left: 12"/>
+<br><img width="334" height="216" alt="TPAction_Target" src="https://github.com/user-attachments/assets/37246ae5-befc-4798-8135-042da6e68d6d" /> &nbsp; <img width="334" height="216" alt="TPAction_SwitchTarget" src="https://github.com/user-attachments/assets/54e830cf-eb87-48e1-afce-c7c3ede7969b" />
 
 
 
