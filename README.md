@@ -17,7 +17,7 @@ This is an original prototype, not a recreation of any existing game.
     </td>
     <td align="center" width="33%">
       <img width="320" alt="Targeted Hit" src="https://github.com/user-attachments/assets/54e830cf-eb87-48e1-afce-c7c3ede7969b" />
-      <br><sub><b>2. Targeted Hit</b></sub>
+      <br><sub><b>2. Switching Target </b></sub>
     </td>
     <td align="center" width="33%">
       <img width="320" alt="Dismemberment" src="https://github.com/user-attachments/assets/1bed349a-99e3-4da0-b71c-1f7b9cc46e97" />
