@@ -54,7 +54,7 @@ Each limb stores:
 - Damage multiplier
 - Supporting-limb flag
 - Destruction feedback assets
-The damage execution uses the physical hit bone to resolve the affected limb before applying armor and damage multipliers.
+- The damage execution uses the physical hit bone to resolve the affected limb before applying armor and damage multipliers.
 
 Weapon tracing
 - Weapon traces are controlled by gameplay tags and animation events.
