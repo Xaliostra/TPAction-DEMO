@@ -34,6 +34,7 @@ To build a readable combat loop in which the player can:
 
 ## Combat Pipeline
 
+```mermaid 
 flowchart LR
     A["Player input"] --> B["GAS attack ability"]
     B --> C["Animation montage / notify"]
@@ -44,7 +45,7 @@ flowchart LR
     G --> H["Limb health / destruction"]
     H --> I["HUD and visual feedback"]
 
-  ## Technical Highlights
+## Technical Highlights
 
 Limb damage
 Each limb stores:
