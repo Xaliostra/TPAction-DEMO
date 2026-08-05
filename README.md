@@ -49,22 +49,18 @@ flowchart LR
 ## Technical Highlights
 
 Limb damage
-Each limb stores:
-- Gameplay Tag
-- Skeletal bone mapping
-- Health and armor
-- Damage multiplier
-- Supporting-limb flag
-- Destruction feedback assets
-- The damage execution uses the physical hit bone to resolve the affected limb before applying armor and damage multipliers.
+- Skeletal Mesh bones are cached into tag driven map for O(1) hit resolution
+- Dismembered limb remains, but is hidden for both visuals and physics
+- Dismembered limb gets replaced by the wound mesh in the root-for-limb bone location
+- Spawns a physic body, representing dismembered limb upon dismemberment
 
 Weapon tracing
 - Weapon traces are controlled by gameplay tags and animation events.
 - Each attack section supplies active trace tags
 - Tags resolve the relevant weapon sockets
-- Socket positions are cached between frames
+- Socket positions are cached frame-to-frame for continuous delta sweeps (backtracing)
 - Sphere sweeps detect targets during the active hit window
-- Each actor can only be hit once per trace window
+- Hit deduplication per attack window via TSet container
   
 AI
 The enemy uses a minimal combat behavior loop:
