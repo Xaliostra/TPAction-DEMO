@@ -64,7 +64,7 @@ Weapon tracing
   
 AI
 <br>The enemy uses a minimal combat behavior loop:
-Acquire target → approach → activate attack ability
+<br>Acquire target → approach → activate attack ability
 → wait for ability completion → recovery delay → repeat
 <br>The AI is deliberately limited: this project is a combat-systems study, not an AI showcase.
 
