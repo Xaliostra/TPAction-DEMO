@@ -5,7 +5,7 @@ A UE5 C++ technical gameplay study exploring targeted limb combat in a third-per
 Inspired by the design problem of readable limb targeting in action games.
 This is an original prototype, not a recreation of any existing game.
 
-[Gameplay video]([...](https://www.youtube.com/watch?v=T2g-U7FvJco)) · [Portfolio](...)
+[Gameplay video](https://www.youtube.com/watch?v=T2g-U7FvJco) · [Portfolio](...)
 
 ## Gameplay GIF: 
 
