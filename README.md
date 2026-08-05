@@ -44,6 +44,7 @@ flowchart LR
     F --> G["Damage calculation: armor + multiplier"]
     G --> H["Limb health / destruction"]
     H --> I["HUD and visual feedback"]
+```
 
 ## Technical Highlights
 
