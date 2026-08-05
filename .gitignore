@@ -1,0 +1,13 @@
+# .gitignore
+
+.idea/
+.vs/
+Binaries/
+Content/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vsconfig
+*.sln.DotSettings.user
+*.sln
+*.uasset
